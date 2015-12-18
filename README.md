@@ -3,7 +3,7 @@ PixelPerfectCameraKit
 
 PixelPerfectCameraKit aims to make working with a pixel perfect camera in Unity sane. A simple demo scene is included with a screenshot of the beautiful Chasm game (which obviously should not be used in your game!). An overview video showing what PixelPerfectCameraKit does is available [here](https://www.youtube.com/watch?v=yI8JrBNTwkc).
 
-What PixelPerfectCameraKit does is quite simple: it renders your main Camera to an appropriately sized RenderTexture and creates a new Camera to display the RenderTexture on a quad.
+What PixelPerfectCameraKit does is quite simple: it renders your main Camera to an appropriately sized RenderTexture and creates a new Camera to display the RenderTexture on a quad. It should be noted that PixelPerfectCameraKit is a height-based solution. It does not impose any constraints on the visible width of your scene. If you have the opposite situation (a width-locked design) than you will just want to flip the width calculations for height. In a future update it may get a width-based toggle but I have not needed that functionality so it has not yet been implemented.
 
 
 
