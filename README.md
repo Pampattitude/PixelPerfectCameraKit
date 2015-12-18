@@ -28,20 +28,20 @@ Setting your main camera's orthoSize to an appropriate value
  - divide screenVerticalPixels (270) by the sprite pixel height (16) = 16.875
  - orthoSize is half height so we use 8.4375
 
-
+Example one
  - ** NOTE: this example resolution scales up to 720p and 1080p perfectly **
  - ex: if your design-time resolution is 320x180 (16x9) and you are using 16x16 sprites
  - sprite pixels-per-unit is 16
  - divide screenVerticalPixels (180) by the sprite pixel height (16) = 11.25
  - orthoSize is half height so we use 5.625
 
-
+Example two
  - ex: if your design-time resolution is 384×216 (16x9) and you are using 16x16 sprites
  - sprite pixels-per-unit is 16
  - divide screenVerticalPixels (216) by the sprite pixel height (16) = 13.5
  - orthoSize is half height so we use 6.75
 
-
+Example three
  - ex: if your design-time resolution is 960x640 (3x2) and you are using 64x64 sprites
  - sprite pixels-per-unit is 64
  - divide screenVerticalPixels (640) by the sprite pixel height (64) = 10
